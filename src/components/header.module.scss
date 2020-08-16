@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.1em;
+  }
+
+  nav {
+    font-size: .8em;
+  }
+}
+
+nav {
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  padding: 0 10px;
+}
+
+nav ul li a {
+  padding-bottom: 2px;
+}
