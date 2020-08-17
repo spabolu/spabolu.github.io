@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql, useStaticQuery } from "gatsby"
+import { Link } from "gatsby"
 
 import headerStyle from "./header.module.scss"
 
@@ -18,7 +18,7 @@ export default function Header() {
             <Link to="/writing"> Writing </Link>
           </li>
           <li>
-            <Link to="/resume"> Résumé </Link>
+          <a href=""> Résumé </a>
           </li>
           <li>
             <Link to="/photo"> Photography </Link>
