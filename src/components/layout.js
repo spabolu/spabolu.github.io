@@ -13,6 +13,7 @@ export default function Layout(props) {
         <meta property="og:url" content="https://sakethpabolu.com" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="en" />
+        <meta name="description" content="Hey! I am Saketh, and I'm a high school senior 🙋🏽‍♂️"/>
         <meta property="og:site_name" content="Saketh Pabolu" />
       </Helmet>
 
