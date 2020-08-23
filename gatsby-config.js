@@ -1,17 +1,11 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
 	/* Your site config here */
 
 	siteMetadata: {
 		title: `Saketh Pabolu`,
 		author: `Saketh Pabolu`,
-		siteURL: `https://www.sakethpabolu.com`,
-		description: `Hey! I am Saketh, and I'm a high school senior`,
+		siteUrl: `https://www.sakethpabolu.com`,
+		description: `Hey! I am Saketh, and I'm a high school senior`
 	},
 
 	plugins: [
@@ -23,6 +17,9 @@ module.exports = {
 				path: `${__dirname}/src/posts/`
 			}
 		},
-		`gatsby-transformer-remark`
+		`gatsby-plugin-offline`,
+		`gatsby-plugin-react-helmet`,
+		`gatsby-transformer-remark`,
+		`gatsby-plugin-feed`
 	]
 }

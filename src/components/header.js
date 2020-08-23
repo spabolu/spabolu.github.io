@@ -18,7 +18,7 @@ export default function Header() {
             <Link to="/writing"> Writing </Link>
           </li>
           <li>
-          <a href=""> Résumé </a>
+            <a href="//drive.google.com/file/d/1mMqzJRsobDMF3HFQiSEOicHKJyCsaAXK/view?usp=sharing" target="_blank"> Résumé </a>
           </li>
           <li>
             <Link to="/photo"> Photography </Link>

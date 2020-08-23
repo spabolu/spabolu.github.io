@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, graphql, useStaticQuery } from "gatsby";
+import { Helmet } from "react-helmet"
 
 import Layout from "../components/layout";
 import writingStyle from "./writing.module.scss";
@@ -25,9 +26,13 @@ export default function Writing() {
 
   return (
     <Layout>
+      <Helmet>
+				<title>Writing | Saketh Pabolu</title>
+			</Helmet>
+
       <h1>Blog</h1>
 
-      <ol>
+      <ol className={writingStyle.parent}>
         {data.allMarkdownRemark.edges.map((edge) => {
           return (
             <li>
