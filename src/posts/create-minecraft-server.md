@@ -29,9 +29,9 @@ Enter the following command to install the stable version of Java:
 sudo apt install default-jdk
 ```
 
-You can verify whether Java was installed by typing: `java --version`.
+You can verify whether Java is installed by typing: `java --version`.
 
-Now that Java is successfully installed, we can go ahead and fetch the Minecraft server file from Spigot and its builder tools by typing the command:
+Now that Java is successfully installed, we can go ahead and download a pre-built release of server file from [ServerJars](https://serverjars.com/) or build it yourself. We are going to use [ServerJars](https://serverjars.com/) for downloading pre-built images. 
 
 ``` shell
 # Creates a folder in the root directory.
@@ -39,21 +39,8 @@ mkdir ./minecraft
 # Navigates to the folder created.
 cd ./minecraft
 # Pulls the lastest files from Spigot required to build the server.
-wget https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
+wget https://serverjars.com/jars/servers/paper/paper-1.16.3.jar
 ```
-
-## Building the Serer
-
-Now we want to run the build tools file, so it creates our Spigot server. It takes about 15-30 minutes to finish. Grab a coffee and relax!
-Add `--rev [versionNumber]` to the end of the command to get the latest version. If the version number is not specified, it installs the latest copy available.
-`java -jar BuildTools.jar`
-To make sure the Spigot server successfully downloaded and saved type ls and should see `spigot-1.14.4.jar`.
-
-```` shell
-ls
-```
-
-For the commands to work, it is required to stay in the same directory as the configuration files.
 
 ## Launch the Server!
 We are ready to launch the server, to do so, enter the following command:
@@ -61,7 +48,7 @@ We are ready to launch the server, to do so, enter the following command:
 ``` shell
 # '-Xms' provides the minimum RAM the server can use
 # '-Xmx' provides the maximum RAM the server can use
-java -Xms512M -Xmx1008M -jar /home/pi/minecraft/spigot-1.14.4.jar nogui
+java -Xms2G -Xmx4G -jar spigot-1.16.3.jar nogui
 ```
 
 Feel free to change the `-Xms` & `-Xmx` parameters in the command depending on how powerful your computer is.
@@ -89,4 +76,4 @@ op yourUsername
 ```
 
 ## Congratulations!
-The Minecraft server should be up and running! However, you can also add plugins, mods, and optimizers.
+The Minecraft server should be up and running! You can also add plugins, mods, and optimizers to your server.

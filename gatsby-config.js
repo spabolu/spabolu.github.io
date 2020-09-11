@@ -3,9 +3,9 @@ module.exports = {
 
 	siteMetadata: {
 		title: `Saketh Pabolu`,
-		author: `Saketh Pabolu`,
+		author: `Saketh`,
 		siteUrl: `https://www.sakethpabolu.com`,
-		description: `Hey! I am Saketh, and I'm a high school senior`
+		description: `Hey! I am Saketh, and I'm a high school senior.`
 	},
 
 	plugins: [
