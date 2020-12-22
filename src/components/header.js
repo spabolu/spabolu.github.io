@@ -8,7 +8,7 @@ export default function Header() {
     <header>
       <nav>
         <div className={headerStyle.title}>
-          <h3> <Link to="/"> Saketh Pabolu 🙋🏽‍♂️ </Link> </h3>
+          <h3> <Link to="/"> Saketh Pabolu </Link> </h3>
         </div>
         <ul className="underline">
           <li>
@@ -18,7 +18,7 @@ export default function Header() {
             <Link to="/writing"> Writing </Link>
           </li>
           <li>
-            <a href="//drive.google.com/file/d/1mMqzJRsobDMF3HFQiSEOicHKJyCsaAXK/view?usp=sharing" rel="noreferrer" target="_blank"> Résumé </a>
+            <a href="https://bit.ly/3nDzVq6" rel="noreferrer" target="_blank"> Résumé </a>
           </li>
           <li>
             <Link to="/photo"> Photography </Link>

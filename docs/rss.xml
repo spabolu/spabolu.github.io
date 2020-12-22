@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Saketh Pabolu]]></title><description><![CDATA[Hey! I am Saketh, and I'm a high school senior.]]></description><link>https://www.sakethpabolu.com</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 24 Sep 2020 22:05:44 GMT</lastBuildDate><item><title><![CDATA[How to Create a Minecraft Server]]></title><description><![CDATA[The following tutorial uses the Spigot version of Minecraft and running on Linux. Minecraft: Java Edition can run on all operating systems…]]></description><link>https://www.sakethpabolu.comcreate-minecraft-server</link><guid isPermaLink="false">https://www.sakethpabolu.comcreate-minecraft-server</guid><pubDate>Fri, 19 Oct 2001 07:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The following tutorial uses the Spigot version of Minecraft and running on Linux. Minecraft: Java Edition can run on all operating systems. So, we are going to be installing Java JDK and optimizing the server for better performance.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Saketh Pabolu]]></title><description><![CDATA[Hello! I am Saketh 👋🏼 I’m a high school senior, and currently the founder of @CodeBetas. I’ve previously interned @ChandlerPD, created @YACU website, and won Best-in-Show at @CodeDay hackathon twice! I am the co-founder of @AzYACU to engage in politics and promote bipartisanship. Lover of 🚘, 🐕, 📷, 💾, 🍕 and 🍟. Lifelong personal finance nerd 💵 and early investor in the S&P 500 📈. I depend on the Internet. I strive to live with intention & act with compassion. I can juggle 🤹🏽‍♂️! My career goal is to attain @FIRE. Until then, in my free time, I enjoy 🚴‍♂‍, playing 🎸 or 🎹, and exploring exciting technology.]]></description><link>https://www.sakethpabolu.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 22 Dec 2020 20:52:06 GMT</lastBuildDate><item><title><![CDATA[How to Create a Minecraft Server]]></title><description><![CDATA[The following tutorial uses the Spigot version of Minecraft and running on Linux. Minecraft: Java Edition can run on all operating systems…]]></description><link>https://www.sakethpabolu.comcreate-minecraft-server</link><guid isPermaLink="false">https://www.sakethpabolu.comcreate-minecraft-server</guid><pubDate>Fri, 19 Oct 2001 07:00:00 GMT</pubDate><content:encoded>&lt;p&gt;The following tutorial uses the Spigot version of Minecraft and running on Linux. Minecraft: Java Edition can run on all operating systems. So, we are going to be installing Java JDK and optimizing the server for better performance.&lt;/p&gt;
 &lt;h2&gt;Seting up the Minecraft Server&lt;/h2&gt;
 &lt;h3&gt;Updating the system&lt;/h3&gt;
 &lt;p&gt;Regardless of where you install the server, it is highly recommended to update all system packages to the lastest/stable version. To update and upgrade in Linux, type:&lt;/p&gt;
@@ -6,28 +6,28 @@
 sudo apt-get dist-upgrade -Vy &amp;#x26;&amp;#x26;
 sudo apt-get autoremove -y &amp;#x26;&amp;#x26;
 sudo apt-get autoclean &amp;#x26;&amp;#x26;
-sudo apt-get clean 
+sudo apt-get clean
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Now go to finish and reboot for the new updates to apply.&lt;/p&gt;
 &lt;h3&gt;Installing the server and its dependecies&lt;/h3&gt;
 &lt;p&gt;Minecraft: Java Edition works with &lt;code&gt;Java JDK&lt;/code&gt; in the backend, so let’s install a copy of the default JDK package. Or, the licensed Java-edition from Oracle.&lt;/p&gt;
 &lt;p&gt;Enter the following command to install the stable version of Java:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo apt install default-jdk
+&lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;sudo apt install default-jdk -y
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You can verify whether Java is installed by typing: &lt;code&gt;java --version&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;Now that Java is successfully installed, we can go ahead and download a pre-built release of server file from &lt;a href=&quot;https://serverjars.com/&quot;&gt;ServerJars&lt;/a&gt; or build it yourself. We are going to use &lt;a href=&quot;https://serverjars.com/&quot;&gt;ServerJars&lt;/a&gt; for downloading pre-built images. &lt;/p&gt;
+&lt;p&gt;Now that Java is successfully installed, we can go ahead and download a pre-built release of server file from &lt;a href=&quot;https://serverjars.com/&quot;&gt;ServerJars&lt;/a&gt; or build it yourself. We are going to use &lt;a href=&quot;https://serverjars.com/&quot;&gt;ServerJars&lt;/a&gt; for downloading pre-built images.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# Creates a folder in the root directory.
 mkdir ./minecraft
 # Navigates to the folder created.
 cd ./minecraft
-# Pulls the lastest files from Spigot required to build the server.
-wget https://serverjars.com/jars/servers/paper/paper-1.16.3.jar
+# Pulls the lastest files from ServerJars required to build the server.
+wget https://serverjars.com/jars/servers/paper/paper-1.16.4.jar
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h2&gt;Launch the Server!&lt;/h2&gt;
 &lt;p&gt;We are ready to launch the server, to do so, enter the following command:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-shell&quot;&gt;# &apos;-Xms&apos; provides the minimum RAM the server can use
 # &apos;-Xmx&apos; provides the maximum RAM the server can use
-java -Xms2G -Xmx4G -jar spigot-1.16.3.jar nogui
+java -Xms2G -Xmx4G -jar paper-1.16.4.jar nogui
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Feel free to change the &lt;code&gt;-Xms&lt;/code&gt; &amp;#x26; &lt;code&gt;-Xmx&lt;/code&gt; parameters in the command depending on how powerful your computer is.&lt;/p&gt;
 &lt;p&gt;The server stops straight away as we need to agree to the EULA. You can do this by changing &lt;code&gt;false&lt;/code&gt; to &lt;code&gt;TRUE&lt;/code&gt;.&lt;/p&gt;

@@ -16,7 +16,7 @@ sudo apt-get update &&
 sudo apt-get dist-upgrade -Vy &&
 sudo apt-get autoremove -y &&
 sudo apt-get autoclean &&
-sudo apt-get clean 
+sudo apt-get clean
 ```
 
 Now go to finish and reboot for the new updates to apply.
@@ -26,20 +26,20 @@ Minecraft: Java Edition works with `Java JDK` in the backend, so let’s install
 
 Enter the following command to install the stable version of Java:
 ``` shell
-sudo apt install default-jdk
+sudo apt install default-jdk -y
 ```
 
 You can verify whether Java is installed by typing: `java --version`.
 
-Now that Java is successfully installed, we can go ahead and download a pre-built release of server file from [ServerJars](https://serverjars.com/) or build it yourself. We are going to use [ServerJars](https://serverjars.com/) for downloading pre-built images. 
+Now that Java is successfully installed, we can go ahead and download a pre-built release of server file from [ServerJars](https://serverjars.com/) or build it yourself. We are going to use [ServerJars](https://serverjars.com/) for downloading pre-built images.
 
 ``` shell
 # Creates a folder in the root directory.
 mkdir ./minecraft
 # Navigates to the folder created.
 cd ./minecraft
-# Pulls the lastest files from Spigot required to build the server.
-wget https://serverjars.com/jars/servers/paper/paper-1.16.3.jar
+# Pulls the lastest files from ServerJars required to build the server.
+wget https://serverjars.com/jars/servers/paper/paper-1.16.4.jar
 ```
 
 ## Launch the Server!
@@ -48,7 +48,7 @@ We are ready to launch the server, to do so, enter the following command:
 ``` shell
 # '-Xms' provides the minimum RAM the server can use
 # '-Xmx' provides the maximum RAM the server can use
-java -Xms2G -Xmx4G -jar spigot-1.16.3.jar nogui
+java -Xms2G -Xmx4G -jar paper-1.16.4.jar nogui
 ```
 
 Feel free to change the `-Xms` & `-Xmx` parameters in the command depending on how powerful your computer is.

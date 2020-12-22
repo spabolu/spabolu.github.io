@@ -1,8 +1,8 @@
 {
-  "name": "sakethpabolu",
+  "name": "spabolu.github.io",
   "private": true,
-  "description": "I'm a High School Student and ready to deploy!",
-  "version": "0.1.0",
+  "description": "Ready to deploy, baby!",
+  "version": "0.1.8",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
