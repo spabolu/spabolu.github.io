@@ -27,8 +27,8 @@ export default function Writing() {
   return (
     <Layout>
       <Helmet>
-				<title>Writing | Saketh Pabolu</title>
-			</Helmet>
+        <title>Writing ✍🏼 | Saketh Pabolu</title>
+      </Helmet>
 
       <h1>Blog</h1>
 

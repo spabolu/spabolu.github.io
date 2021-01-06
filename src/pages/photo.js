@@ -7,9 +7,9 @@ export default function Photo() {
 	return (
 		<Layout>
 			<Helmet>
-				<title>Photography | Saketh Pabolu</title>
+				<title>Photography 📷 | Saketh Pabolu</title>
 			</Helmet>
-            <p>TBD</p>
+			<p>TBD</p>
 		</Layout>
 	)
 }

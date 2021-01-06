@@ -4,8 +4,8 @@
 	grid-column-gap: 0px;
 	grid-row-gap: 0px;
 	padding: 0;
-    margin: 0;
-    list-style-type: none;
+	margin: 0;
+	list-style-type: none;
 }
 
 .title {
@@ -23,10 +23,10 @@
 
 @media (max-width: 768px) {
 	.title {
-	  font-size: 1.1em;
+		font-size: 1.1em;
 	}
-  
+
 	.date {
-	  font-size: .8em;
+		font-size: .8em;
 	}
-  }
+}

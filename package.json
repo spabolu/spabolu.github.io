@@ -2,7 +2,7 @@
   "name": "spabolu.github.io",
   "private": true,
   "description": "Ready to deploy, baby!",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
