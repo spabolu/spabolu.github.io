@@ -14,7 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
-    "gatsby": "^2.24.41",
+    "gatsby": "^2.32.2",
     "gatsby-plugin-feed": "^2.5.11",
     "gatsby-plugin-google-analytics": "^2.3.13",
     "gatsby-plugin-offline": "^3.2.23",
@@ -28,7 +28,7 @@
     "react-helmet": "^6.1.0"
   },
   "devDependencies": {
-    "gatsby-cli": "^2.12.83",
+    "gatsby-cli": "^2.19.1",
     "prettier": "2.0.5"
   },
   "repository": {

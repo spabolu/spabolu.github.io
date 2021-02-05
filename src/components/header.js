@@ -15,10 +15,11 @@ export default function Header() {
             <Link to="/"> Home </Link>
           </li>
           <li>
-            <Link to="/writing"> Writing </Link>
+            {/* <Link to="https://write.as/sakethpabolu"> Writing </Link> */}
+            <a href="https://write.as/sakethpabolu" rel="noreferrer" target="_blank"> Writing </a>
           </li>
           <li>
-            <a href="https://bit.ly/3nDzVq6" rel="noreferrer" target="_blank"> Résumé </a>
+            <a href="https://drive.google.com/file/d/14QukU_ZTdBaQTOtRgMirHPndC2-EguxF/view?usp=sharing" rel="noreferrer" target="_blank"> Résumé </a>
           </li>
           <li>
             <Link to="/photo"> Photography </Link>
