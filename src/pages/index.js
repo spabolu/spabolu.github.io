@@ -1,12 +1,16 @@
-import React from "react"
-import Layout from "../components/layout"
+import * as React from 'react'
+import Emoji from 'a11y-react-emoji'
+import SEO from '../components/SEO'
 
-export default function Home() {
-	return (
-		<Layout>
-			<h3 className="description"> Hello! I am Saketh 👋🏼. I am a high school senior, and currently the founder of CodeBetas. I’ve previously interned at Chandler PD, created the website for YACU.org, and won Best-in-Show at CodeDay hackathon twice! I'm the co-founder of Arizona YACU chapter, engaging in politics and promoting bipartisanship. Lover of 🚘, 🐕, 📷, 👨🏼‍💻, 🌮 and 🥗. Lifelong personal finance nerd 💵 and an early investor in the S&amp;P 500 📈. I <i>depend</i> on the Internet. I strive to live with intention &amp; act with compassion. I can juggle 🤹🏼‍♂️! My career goal is to attain the "4-Hour Workweek." Until then, in my free time, I enjoy 🚵🏼‍♂️, 🧗🏼‍♂️, reading 📚, and exploring <i>exciting</i> technology. </h3>
+const IndexPage = () => {
+  return (
+    <>
+      <SEO title='Home' />
+      <h3 className='description'> Hello! I am Saketh <Emoji symbol='🙋🏽‍♂️' />. I am a high school senior, and currently the founder of CodeBetas. I’ve previously interned at Chandler PD, created the website for YACU.org, and won Best-in-Show at CodeDay hackathon twice! I've been coding for about 7 years — or exactly {Math.abs(Math.round((new Date("2016").getTime() - new Date().getTime()) / 1000))} seconds! Lover of <Emoji symbol='🚘' />, <Emoji symbol='🐕' />, <Emoji symbol='📸' />, <Emoji symbol='👨🏽‍💻' />, <Emoji symbol='🍣' /> and <Emoji symbol='🥗' />. Lifelong personal finance nerd <Emoji symbol='💵' /> and an early investor in the S&amp;P 500 <Emoji symbol='📈' />. I <i>depend</i> on the Internet. I strive to live with intention &amp; act with solicitude. I can juggle <Emoji symbol='🤹🏽‍♂️' />! My career goal is to attain the '4-Hour Workweek.' Until then, in my free time, I enjoy <Emoji symbol='🚵🏽‍♂️' />, <Emoji symbol='🧗🏽‍♂️' />, reading <Emoji symbol='📖' />, and exploring <i>exciting</i> technologies. </h3>
 
-			<h4><a href="mailto:hello@sakethpabolu.com">Contact Me <span className="dotted">💌</span></a></h4>
-		</Layout>
-	)
+      <h4><a href='mailto:hello@sakethpabolu.com'>Contact Me <Emoji symbol='📧' className='dotted' /></a></h4>
+    </>
+  )
 }
+
+export default IndexPage

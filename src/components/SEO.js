@@ -1,10 +1,6 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet'
 
-import Nav from './nav';
-
-import 'normalize.css'
-import './layout.scss'
 import { graphql, useStaticQuery } from 'gatsby';
 
 const Layout = ({ children, description, location, title }) => {
@@ -39,9 +35,11 @@ const Layout = ({ children, description, location, title }) => {
 
         {/* Open Graph */}
         {location && <meta property='og:url' content={location.href} />}
+        <meta property='og:title' content={title} key='ogtitle' />
+        <meta property='og:site_name' content={site.siteMetadata.title} key='ogsitename' />
+        <meta property='og:description' content={site.siteMetadata.description} key='ogdesc' />
+        {children}
       </Helmet>
-      <Nav />
-      { children}
     </>
   )
 }

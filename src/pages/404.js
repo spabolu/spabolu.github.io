@@ -1,17 +1,17 @@
-import React from "react"
+import * as React from 'react';
 import { Link } from 'gatsby'
-import { Helmet } from "react-helmet"
+import Emoji from 'a11y-react-emoji'
 
-import Layout from "../components/layout"
+import SEO from '../components/seo'
 
-export default function Home() {
-	return (
-		<Layout>
-			<Helmet>
-				<title>404 😵 | Saketh Pabolu</title>
-			</Helmet>
-			<h2>404 Error ⚡</h2>
-			<h3>Go <Link to='/' className='dotted'>home</Link>. 'Tis dangerous out here 💀</h3>
-		</Layout>
-	)
+const FourOhFour = () => {
+  return (
+    <>
+      <SEO title='404 Error' />
+      <h2>404 Error <Emoji symbol='🔌' /></h2>
+      <h3>Go <Link to='/' className='dotted'>home</Link>. 'Tis dangerous out here <Emoji symbol='💀' /></h3>
+    </>
+  )
 }
+
+export default FourOhFour
