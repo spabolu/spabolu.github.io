@@ -40,6 +40,7 @@ const Layout = ({ children, description, location, title }) => {
         {/* Open Graph */}
         {location && <meta property='og:url' content={location.href} />}
       </Helmet>
+      
       <Nav />
       { children}
     </>

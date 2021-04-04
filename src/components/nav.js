@@ -9,9 +9,6 @@ const NavBar = () => {
       </div>
       <ul className="underline">
         <li>
-          <Link to="/"> Home </Link>
-        </li>
-        <li>
           {/* <Link to="/writing"> Writing </Link> */}
           <a href="https://write.as/sakethpabolu" rel="canonical"> Writing </a>
         </li>
