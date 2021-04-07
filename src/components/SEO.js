@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 
 import { graphql, useStaticQuery } from 'gatsby';
 
-const Layout = ({ children, description, location, title }) => {
+const SEO = ({ children, description, location, title }) => {
   const { site } = useStaticQuery(graphql`
     query {
       site {
@@ -44,4 +44,4 @@ const Layout = ({ children, description, location, title }) => {
   )
 }
 
-export default Layout
+export default SEO

@@ -1,8 +1,8 @@
 {
   "name": "sakethpabolu.com",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "private": true,
-  "description": "Ready to deploy, baby! ✈",
+  "description": "Ready to deploy, baby! 🛫",
   "author": "Saketh Pabolu",
   "scripts": {
     "develop": "gatsby develop",
@@ -15,19 +15,16 @@
     "@fontsource/roboto-mono": "^4.2.2",
     "a11y-react-emoji": "^1.1.3",
     "gatsby": "^3.2.1",
-    "gatsby-cli": "^3.2.0",
     "gatsby-plugin-manifest": "^3.2.0",
     "gatsby-plugin-react-helmet": "^4.2.0",
     "gatsby-plugin-sass": "^4.2.0",
+    "gatsby-plugin-sharp": "^3.2.0",
     "gatsby-plugin-sitemap": "^3.2.0",
-    "moment": "^2.29.1",
     "normalize.css": "^8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
-    "sass": "^1.32.8",
-    "timeago-react": "^3.0.2",
-    "timeago.js": "^4.0.2"
+    "sass": "^1.32.8"
   },
   "repository": {
     "type": "git",
@@ -35,5 +32,8 @@
   },
   "bugs": {
     "url": "https://github.com/spabolu/spabolu.github.io/issues"
+  },
+  "devDependencies": {
+    "gatsby-cli": "^3.2.0"
   }
 }
