@@ -4,8 +4,6 @@
 # ignored to let docs/ in the repo for GitHub Pages to load
 public/
 
-package-lock.json
-
 # General
 .DS_Store
 .AppleDouble
