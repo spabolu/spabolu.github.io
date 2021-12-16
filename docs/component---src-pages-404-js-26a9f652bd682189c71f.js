@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksakethpabolu_com=self.webpackChunksakethpabolu_com||[]).push([[883],{9616:function(e,t,r){r.r(t);var l=r(7294),a=r(5444),n=r(7671),o=r(3751);t.default=function(){return l.createElement(l.Fragment,null,l.createElement(o.Z,{title:"404 Error"}),l.createElement("h2",null,"404 Error ",l.createElement(n.Z,{symbol:"🛑"})),l.createElement("h3",null,"Go"," ",l.createElement(a.rU,{to:"/",className:"dotted"},"home"),". 'Tis dangerous out here!"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-26a9f652bd682189c71f.js.map

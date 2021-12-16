@@ -1,15 +1,37 @@
-import * as React from 'react'
-import Emoji from 'a11y-react-emoji'
-import SEO from '../components/seo'
+import * as React from "react";
+import SEO from "../components/seo";
+
+import Emoji from "a11y-react-emoji";
 
 const IndexPage = () => {
   return (
     <>
-      <SEO title='Home' />
-      <h3 className='description'> Hello! I am Saketh <Emoji symbol='🙋🏽‍♂️' />. I am a high school senior, and currently the founder of CodeBetas. I’ve previously interned at Chandler PD, created the website for YACU.org, and won Best-in-Show at CodeDay hackathon twice! I've been coding for about {Math.floor((new Date().getTime()) / 1000 / 60 / 43800 / 12) - Math.floor((new Date('2014').getTime()) / 1000 / 60 / 43800 / 12)} years and recipient of the ASU's Medallion Scholarship Program! Lover of <Emoji symbol='🚘' />, <Emoji symbol='🐕' />, <Emoji symbol='📸' />, <Emoji symbol='👨🏽‍💻' />, <Emoji symbol='🍣' /> and <Emoji symbol='🥗' />. Lifelong personal finance nerd <Emoji symbol='💵' /> and an early investor in the S&amp;P 500 <Emoji symbol='📈' />. I <i>depend</i> on the Internet. I strive to live with intention &amp; act with solicitude. I can juggle <Emoji symbol='🤹🏽‍♂️' />! My career goal is to attain the '4-Hour Workweek.' Until then, in my free time, I enjoy <Emoji symbol='🚵🏽‍♂️' />, <Emoji symbol='🧗🏽‍♂️' />, reading <Emoji symbol='📖' />, and learning new things. </h3>
-      <h4><a href='https://forms.gle/LGR5XXP2PNazSjLo6'>Contact Me <Emoji symbol='📬' className='dotted' /></a></h4>
-    </>
-  )
-}
+      <SEO title="Home" />
+      <h3 className="description">
+        {" "}
+        <Emoji symbol="👋🏼" /> Hi, I'm Saketh! I am an undergraduate at ASU
+        studying Computer Science and an incoming intern at SolarSPELL{" "}
+        <Emoji symbol="🌤" />. Most recently, I worked as a XR Creative Developer
+        for the Learning Futures Collaboratory <Emoji symbol="🕹" />. Looking
+        forward to creating an impact in the Python Users Group at ASU as an
+        elected officer <Emoji symbol="🐍" />. Recently, I co-created Seemless
+        Authentication app at the AWS Hackathon <Emoji symbol="👨🏽‍💻" />. I hustle
+        by always working on side projects and receiving guidance from wonderful
+        mentors. Lover of <Emoji symbol="🚘" />, <Emoji symbol="🐕" />,{" "}
+        <Emoji symbol="🏓" />, <Emoji symbol="📖" />, <Emoji symbol="👨🏽‍💻" />,{" "}
+        <Emoji symbol="🍣" /> and <Emoji symbol="🏋🏽‍♂️" />. Lifelong personal
+        finance nerd and an early investor in the S&amp;P 500{" "}
+        <Emoji symbol="📈" />. I strive to live with intention &amp; act with
+        ruth. Oh also, I can juggle <Emoji symbol="🤹🏽‍♂️" />!{" "}
+      </h3>
 
-export default IndexPage
+      <h4>
+        {" "}
+        Grab <Emoji symbol="🧋" /> w/ me by emailing me at{" "}
+        <code className="code">spabolu2 at asu dot edu</code>.{" "}
+      </h4>
+    </>
+  );
+};
+
+export default IndexPage;
