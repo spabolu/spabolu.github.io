@@ -60,11 +60,11 @@ function App() {
         type="button"
         aria-label="toggle-theme"
         onClick={handleThemeSwitch}
-        className="fixed md:p-2 p-1 z-10 right-10 top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md"
+        className="fixed md:p-2 p-1 z-10 md:right-10 right-5  top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md"
       >
         {theme === "dark" ? sun : moon}
       </button>
-      <div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-200 min-h-screen">
+      <div className="font-mono bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-200 min-h-screen">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
           <Portfolio />
