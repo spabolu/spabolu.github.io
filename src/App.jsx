@@ -58,6 +58,7 @@ function App() {
     <>
       <button
         type="button"
+        aria-label="toggle-theme"
         onClick={handleThemeSwitch}
         className="fixed md:p-2 p-1 z-10 right-10 top-4 bg-violet-300 dark:bg-orange-300 text-lg rounded-md"
       >
