@@ -6,12 +6,12 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "postbuild": "echo 'sakethpabolu.com' > ./docs/CNAME",
     "clean": "rimraf ./docs ./node_modules",
     "dev": "vite --host",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "preview": "vite preview --host",
-    "prepare": "husky install"
+    "preview": "vite preview --host"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -33,7 +33,6 @@
     "prettier": "^2.8.3",
     "rimraf": "^4.1.0",
     "tailwindcss": "^3.2.4",
-    "vite": "^4.0.0",
-    "husky": "^8.0.0"
+    "vite": "^4.0.0"
   }
 }
