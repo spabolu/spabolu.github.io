@@ -64,7 +64,7 @@ export const TimelineItems = [
   },
   {
     year: "2021",
-    title: "Director at Python Users Group",
+    title: "Technical Director",
     duration: "8 months",
     details:
       "Managed the website, created content, and organized events as technical director of the Python Users Group at my university.",
