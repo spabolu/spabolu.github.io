@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet";
 
 import Footer from "./components/Footer";
 import Intro from "./components/Intro";
@@ -64,6 +65,11 @@ function App() {
       >
         {theme === "dark" ? sun : moon}
       </button>
+
+      <Helmet>
+        <meta name="theme-color" content={theme === "dark" && "#1C1917"} />
+      </Helmet>
+
       <div className="font-mono bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-200 min-h-screen">
         <div className="max-w-5xl w-11/12 mx-auto">
           <Intro />
