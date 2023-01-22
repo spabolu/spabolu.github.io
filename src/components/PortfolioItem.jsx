@@ -3,7 +3,7 @@ import React from "react";
 function PortfolioItem({ title, imgURL, stack, link }) {
   return (
     <a
-      className="border-2 border-stone-900 rounded-md overflow-hidden dark:border-white hover:border-stone-500 dark:hover:border-red-600"
+      className="border-2 border-stone-900 rounded-md overflow-hidden dark:border-white hover:border-red-600"
       href={link}
       rel="noreferrer noopener"
       target="_blank"
