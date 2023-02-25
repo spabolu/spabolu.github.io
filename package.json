@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "spabolu.github.io",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "homepage": "https://spabolu.github.io/",
   "type": "module",
   "scripts": {
@@ -9,8 +9,6 @@
     "postbuild": "echo 'sakethpabolu.com' > ./docs/CNAME",
     "clean": "rimraf ./docs ./node_modules",
     "dev": "vite --host",
-    "lint": "eslint .",
-    "lint:fix": "eslint --fix .",
     "preview": "vite preview --host"
   },
   "dependencies": {
