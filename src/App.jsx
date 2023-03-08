@@ -68,6 +68,11 @@ function App() {
 
       <Helmet>
         <meta name="theme-color" content={theme === "dark" && "#1C1917"} />
+        <script
+          data-goatcounter="https://saketh.goatcounter.com/count"
+          async
+          src="//gc.zgo.at/count.js"
+        />
       </Helmet>
 
       <div className="font-mono bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-200 min-h-screen">
