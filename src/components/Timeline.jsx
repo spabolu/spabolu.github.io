@@ -56,11 +56,11 @@ import Title from "./Title";
 
 export const TimelineItems = [
   {
-    year: "Today",
+    year: "Present",
     title: "Creator of Courseer",
     duration: "Current",
     details:
-      "Currently working on Courseer, a website that helps students enroll in classes when they are open.",
+      "Currently working on Courseer, a website with 100+ users helping students enroll in classes they need.",
   },
   {
     year: "2021",
