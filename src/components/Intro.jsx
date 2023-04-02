@@ -10,8 +10,8 @@ function Intro() {
         Computer Science Student
       </p>
       <p className="text-sm max-w-xl mb-6 font-semibold">
-        Hi there, my name is Saketh and I am a computer science student at
-        Arizona State University. As a sophomore, I am passionate about
+        Hi there! My name is Saketh, and I am a computer science student at
+        Arizona State University. As a sophomore, I have a strong passion for
         technology and programming. I am the creator of{" "}
         <a
           href="https://courseer.co/"
@@ -21,10 +21,10 @@ function Intro() {
         >
           Courseer
         </a>
-        , a SaaS website that helps students navigate and plan their coursework.
-        With a keen eye for problem-solving and an aptitude for coding, I am
-        well on my way to a successful career in the tech industry. Check out my
-        portfolio to see my latest projects!
+        , a SaaS website that assists students in navigating and planning their
+        coursework. With a keen eye for problem-solving and a natural aptitude
+        for coding, I am dedicated to pursuing a successful career in the tech
+        industry. Feel free to check out my portfolio to see my latest projects!
       </p>
     </div>
   );
