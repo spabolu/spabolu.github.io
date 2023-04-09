@@ -57,7 +57,7 @@ export const TimelineItems = [
     title: "Code Sensei",
     duration: "2 years",
     details:
-      "Taught children how to code using Scratch, JavaScript and Python, and designed curriculum for some of the projects.",
+      "Upskilled children on coding using Scratch, JavaScript and Python, and designed curriculum for some of the projects.",
   },
 ];
 
