@@ -14,6 +14,12 @@ export const PortfolioItems = [
     stack: ["HTML", "JavaScript", "CSS"],
     link: "https://juststockprice.netlify.app/",
   },
+  {
+    title: "Cheatsheet Generator",
+    imgURL: "/assets/cheatsheet-card.png",
+    stack: ["React", "TypeScript", "Tailwind"],
+    link: "https://cheatsheet-generator.vercel.app/",
+  },
 ];
 
 function Portfolio() {
