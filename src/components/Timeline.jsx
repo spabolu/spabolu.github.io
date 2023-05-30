@@ -8,7 +8,7 @@ export const TimelineItems = [
     title: "Creator of Courseer",
     duration: "Current",
     details:
-      "Currently working on Courseer, a website with 200+ users helping students enroll in classes they need.",
+      "Currently working on Courseer, a website with 250+ users helping students enroll in classes they need.",
   },
   {
     year: "2021",
