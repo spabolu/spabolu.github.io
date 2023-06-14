@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "spabolu.github.io",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "homepage": "https://spabolu.github.io/",
   "type": "module",
   "scripts": {
@@ -21,7 +21,7 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
-    "eslint": "^8.41.0",
+    "eslint": "^8.42.0",
     "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",

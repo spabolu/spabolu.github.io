@@ -5,10 +5,17 @@ import Title from "./Title";
 export const TimelineItems = [
   {
     year: "Present",
+    title: "Study Abroad in Ireland",
+    duration: "Current",
+    details:
+      "Currently studying at University College Dublin in Ireland for Summer 2023, taking courses in both computer science and entrepreneurship.",
+  },
+  {
+    year: "Present",
     title: "Creator of Courseer",
     duration: "Current",
     details:
-      "Currently working on Courseer, a website with 250+ users helping students enroll in classes they need.",
+      "Currently working on Courseer, a website with 250+ users helping ASU students enroll in classes they need.",
   },
   {
     year: "2021",
