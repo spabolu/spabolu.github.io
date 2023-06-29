@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Intro from "./components/Intro";
 import Portfolio from "./components/Portfolio";
 import Timeline from "./components/Timeline";
+// import Contact from "./components/Contact";
 
 function App() {
   const [theme, setTheme] = useState(false);
