@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function Title({ children, id }) {
   return (
@@ -8,7 +8,7 @@ function Title({ children, id }) {
     >
       {children}
     </h1>
-  );
+  )
 }
 
-export default Title;
+export default Title

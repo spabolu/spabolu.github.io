@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function Footer() {
   return (
@@ -92,7 +92,7 @@ function Footer() {
         &copy; {new Date().getFullYear()} Saketh Pabolu. All rights reserved.
       </p>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

@@ -1,5 +1,5 @@
-import React from "react";
-import Title from "./Title";
+import React from 'react'
+import Title from './Title'
 
 function Contact() {
   return (
@@ -39,7 +39,7 @@ function Contact() {
         </form>
       </div>
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

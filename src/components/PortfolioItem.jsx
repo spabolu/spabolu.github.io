@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function PortfolioItem({ title, imgURL, stack, link }) {
   return (
@@ -29,7 +29,7 @@ function PortfolioItem({ title, imgURL, stack, link }) {
         </p>
       </div>
     </a>
-  );
+  )
 }
 
-export default PortfolioItem;
+export default PortfolioItem

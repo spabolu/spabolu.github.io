@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 function Intro() {
   return (
@@ -12,7 +12,7 @@ function Intro() {
       <p className="text-sm max-w-2xl mb-6 font-semibold">
         Hi there! My name is Saketh, and I am a computer science student at
         Arizona State University. As a junior, I have a strong passion for
-        technology and programming. I am the creator of{" "}
+        technology and programming. I am the creator of{' '}
         <a
           href="https://courseer.co/"
           target="_blank"
@@ -28,7 +28,7 @@ function Intro() {
         internship. Check out my side projects below!
       </p>
     </div>
-  );
+  )
 }
 
-export default Intro;
+export default Intro

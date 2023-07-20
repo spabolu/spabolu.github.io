@@ -1,33 +1,33 @@
-import React from "react";
-import PortfolioItem from "./PortfolioItem";
+import React from 'react'
+import PortfolioItem from './PortfolioItem'
 
 export const PortfolioItems = [
   {
-    title: "Courseer",
-    imgURL: "/assets/courseer-card.png",
-    stack: ["NextJS", "Firebase", "Stripe"],
-    link: "https://courseer.co/",
+    title: 'Courseer',
+    imgURL: '/assets/courseer-card.png',
+    stack: ['NextJS', 'Firebase', 'Stripe'],
+    link: 'https://courseer.co/',
   },
   {
-    title: "Just Stock Price",
-    imgURL: "/assets/juststockprice-card.png",
-    stack: ["HTML", "JavaScript", "CSS"],
-    link: "https://juststockprice.netlify.app/",
+    title: 'Just Stock Price',
+    imgURL: '/assets/juststockprice-card.png',
+    stack: ['HTML', 'JavaScript', 'CSS'],
+    link: 'https://juststockprice.netlify.app/',
   },
   {
-    title: "Cheatsheet Generator",
-    imgURL: "/assets/cheatsheet-card.png",
-    stack: ["React", "TypeScript", "Tailwind"],
-    link: "https://cheatsheet-generator.vercel.app/",
+    title: 'Cheatsheet Generator',
+    imgURL: '/assets/cheatsheet-card.png',
+    stack: ['React', 'TypeScript', 'Tailwind'],
+    link: 'https://cheatsheet-generator.vercel.app/',
   },
-];
+]
 
 function Portfolio() {
   return (
     <div className="flex flex-col md:flex-row items-center justify-center">
       <div
         className={`grid grid-cols-1 md:grid-cols2 
-        ${PortfolioItems.length > 2 ? "lg:grid-cols-3" : "lg:grid-cols-2"}
+        ${PortfolioItems.length > 2 ? 'lg:grid-cols-3' : 'lg:grid-cols-2'}
         gap-4`}
       >
         {PortfolioItems.map((item, index) => (
@@ -41,7 +41,7 @@ function Portfolio() {
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default Portfolio;
+export default Portfolio
