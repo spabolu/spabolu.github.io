@@ -5,17 +5,17 @@ import Title from './Title'
 export const TimelineItems = [
   {
     year: 'Present',
-    title: 'Study Abroad in Ireland',
-    duration: 'Current',
-    details:
-      'Currently studying at University College Dublin for Summer 2023, taking courses in both computer science and entrepreneurship.',
-  },
-  {
-    year: 'Present',
     title: 'Creator of Courseer',
     duration: 'Current',
     details:
-      'Currently working on Courseer, a website with 350+ users helping ASU students enroll in classes they need.',
+      'Currently working on Courseer, a website with 450+ users helping ASU students enroll in classes they need.',
+  },
+  {
+    year: '2023',
+    title: 'Study Abroad in Ireland',
+    duration: '2 months',
+    details:
+      'Studyed at University College Dublin for Summer 2023, taking courses in both computer science and entrepreneurship.',
   },
   {
     year: '2021',
@@ -29,14 +29,14 @@ export const TimelineItems = [
     title: 'Internet of Things (IoT) Intern',
     duration: '4 months',
     details:
-      'Improved Raspberry Pi Wi-Fi module, enabling 200% more concurrent connections and stable hotspot access.',
+      'Improved Raspberry Pi Wi-Fi module, enabling 120% more concurrent connections and stable hotspot access.',
   },
   {
     year: '2021',
     title: 'Creative Developer',
     duration: '4 months',
     details:
-      'Worked on creating interactive UI/UX elements for a website using Adobe XD for my university.',
+      "Worked on creating interactive UI/UX elements for Arizona State University's website using Adobe XD.",
   },
   {
     year: '2021',

@@ -9,6 +9,8 @@ function Footer() {
             <a
               href="https://www.linkedin.com/in/spabolu/"
               aria-label="LinkedIn"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
             >
               <svg
@@ -44,6 +46,8 @@ function Footer() {
             <a
               href="https://github.com/spabolu/"
               aria-label="GitHub"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
             >
               <svg
@@ -66,8 +70,10 @@ function Footer() {
               </svg>
             </a>
             <a
-              href="https://drive.google.com/file/d/1nzC-pKKG7KxdjuXdhXYYWdJK_WBBDHQe/view?usp=sharing&usp=embed_facebook"
+              href="https://docs.google.com/document/d/1UhFOIKYlE_-ZThuOYKZxQH2VKfLVRsSe/edit?usp=sharing&ouid=100114066884170849503&rtpof=true&sd=true"
               aria-label="Resume"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-stone-400 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full"
             >
               <svg
@@ -89,7 +95,7 @@ function Footer() {
         </div>
       </div>
       <p className="text-base mt-3 opacity-50">
-        &copy; {new Date().getFullYear()} Saketh Pabolu. All rights reserved.
+        Saketh Pabolu. All rights reserved.
       </p>
     </div>
   )
